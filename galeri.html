@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galeri — UKS SMKS Shalatiyah Bitin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🔹 Navbar -->
+  <nav class="navbar">
+    <div class="brand">
+      <img src="LOGO SMK.png" alt="Logo Sekolah" class="logo logo-uks">
+      <img src="logo image.jpeg" alt="Logo UKS" class="logo logo-school">
+      <div class="brand-text">
+        <div class="title">UKS SMKS Shalatiyah Bitin</div>
+        <div class="subtitle">Usaha Kesehatan Sekolah</div>
+      </div>
+    </div>
+
+    <button class="menu-toggle" aria-label="Buka menu" id="menuToggle5">☰</button>
+
+<ul class="nav-links" id="navMenu5">
+  <li><a href="index.html" class="nav-link" data-page="index">Struktur</a></li>
+  <li><a href="sejarah.html" class="nav-link" data-page="sejarah">Sejarah</a></li>
+  <li><a href="program.html" class="nav-link" data-page="program">Program</a></li>
+  <li><a href="galeri.html" class="nav-link active" data-page="galeri">Galeri</a></li>
+  <li><a href="kontak.html" class="nav-link" data-page="kontak">Kontak</a></li>
+</ul>
+
+     <div class="nav-actions">
+      <button class="btn icon-btn" id="themeToggle5" aria-label="Toggle theme">🌓</button>
+    </div>
+  </nav>
+
+  <!-- 🔹 Konten Galeri -->
+  <main class="container">
+    <header class="page-header">
+      <h1>Galeri Kegiatan UKS</h1>
+      <p class="lead">Dokumentasi kegiatan UKS SMKS Shalatiyah Bitin</p>
+    </header>
+
+    <section class="gallery-grid">
+      <div class="gallery-item"><img src="1 (2).jpeg" alt="Kegiatan 1"></div>
+      <div class="gallery-item"><img src="3 (2).jpeg" alt="Kegiatan 2"></div>
+      <div class="gallery-item"><img src="foto2.jpeg" alt="Kegiatan 3"></div>
+      <div class="gallery-item"><img src="4 (2).jpeg" alt="Kegiatan 4"></div>
+      <div class="gallery-item"><img src="foto.jpeg" alt="Kegiatan 5"></div>
+      <div class="gallery-item"><img src="6.jpeg" alt="Kegiatan 6"></div>
+    </section>
+
+
+  <!-- 🔹 Modal untuk foto besar -->
+  <div id="imgModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+    <div id="caption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
